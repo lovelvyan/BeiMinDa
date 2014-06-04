@@ -1,0 +1,16 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <!-- <item name="android:textStyle">bold</item> -->
+        <!-- <item name="android:background">#a018a162</item> -->
+        <!-- <item name="android:baseline">@layout/action_baseline</item> -->
+
+        <item name="android:typeface">monospace</item>
+        <!-- <item name="android:windowActionBarOverlay">true</item> -->
+    </style>
+
+    <style name="NoTitleBar" parent="android:Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

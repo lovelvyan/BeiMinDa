@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gridmenu_states"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="4dip" >
+
+    <ImageView
+        android:id="@+id/main_item_img"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="15dip"
+        android:scaleType="centerInside" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/main_item_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_item_img"
+        android:gravity="center"
+        android:padding="5dip"
+        android:singleLine="true"
+        android:text="功能名称"
+        android:textColor="#A3A3A3"
+        android:textSize="14sp" >
+    </TextView>
+
+</RelativeLayout>

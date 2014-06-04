@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/blogtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:padding="15dip"
+        android:text="我们自己的平台！"
+        android:textColor="#000000"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/blogwriter"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#008B45"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:text="这是作者"
+        android:textSize="14sp" >
+    </TextView>
+
+    <WebView
+        android:id="@+id/open_html"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxHeight="300dip"
+        android:scrollbars="none" />
+
+</LinearLayout>
