@@ -19,9 +19,11 @@
         android:layout_height="wrap_content"
         android:gravity="center_vertical"
         android:paddingBottom="20dp"
+        android:textStyle="normal"
+        android:textSize="8pt"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:paddingTop="20dp"
-        android:textColor="#585855" />
+        android:textColor="#ffffff" />
 
 </LinearLayout>

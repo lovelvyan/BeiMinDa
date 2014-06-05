@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.newyouth.bmdxyt.R;
+import com.newyouth.schoolmap.SchoolMap;
 import com.newyouth.studymaterial.StudyMaterialActivity;
 
 import android.annotation.SuppressLint;
@@ -35,56 +36,56 @@ public class MainFragment extends Fragment {
 			Map<String, Object> item = new HashMap<String, Object>();
 			switch (i) {
 			case 0:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_news);
 				item.put("textItem", getString(R.string.grid_item_schoole_news));
 				break;
 			case 1:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_tongzhi);
 				item.put("textItem", getString(R.string.grid_item_study_inform));
 				break;
 			case 2:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_ikonw);
 				item.put("textItem", getString(R.string.grid_item_school_ikonw));
 				break;
 			case 3:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_server);
 				item.put("textItem",
 						getString(R.string.grid_item_school_server));
 				break;
 			case 4:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_findgoods);
 				item.put("textItem", getString(R.string.grid_item_find_goods));
 				break;
 			case 5:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_study_file);
 				item.put("textItem",
 						getString(R.string.grid_item_study_material));
 				break;
 			case 6:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_person);
 				item.put("textItem",
 						getString(R.string.grid_item_school_person));
 				break;
 			case 7:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_students);
 				item.put("textItem",
 						getString(R.string.grid_item_school_student));
 				break;
 			case 8:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_xiaoyuanjingyan);
 				item.put("textItem",
 						getString(R.string.grid_item_school_experience));
 				break;
 			case 9:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_food);
 				item.put("textItem", getString(R.string.grid_item_school_food));
 				break;
 			case 10:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_school_map);
 				item.put("textItem", getString(R.string.grid_item_school_map));
 				break;
 			case 11:
-				item.put("imageItem", R.drawable.grid_item_jiaoxueziliao);
+				item.put("imageItem", R.drawable.grid_item_yijianfankui);
 				item.put("textItem",
 						getString(R.string.grid_item_idea_feedback));
 				break;
@@ -143,7 +144,7 @@ public class MainFragment extends Fragment {
 					intent.setClass(getActivity(), StudyMaterialActivity.class);
 					break;
 				case 10:
-					intent.setClass(getActivity(), StudyMaterialActivity.class);
+					intent.setClass(getActivity(), SchoolMap.class);
 					break;
 				case 11:
 					intent.setClass(getActivity(), StudyMaterialActivity.class);

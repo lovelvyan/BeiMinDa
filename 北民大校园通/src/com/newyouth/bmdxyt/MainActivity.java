@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.newyouth.calendar.SchoolCalendar;
 import com.newyouth.fragment.MainFragment;
 import com.newyouth.fragment.UrlFragment;
 
@@ -51,8 +52,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-	/*	getActionBar().setDisplayHomeAsUpEnabled(true);*/
+
+		/* getActionBar().setDisplayHomeAsUpEnabled(true); */
 
 		/**
 		 * 下面代码定义actionBar的样式
@@ -168,7 +169,13 @@ public class MainActivity extends Activity {
 		}
 		switch (item.getItemId()) {
 		case R.id.action_calendar:
-			Toast.makeText(this, "显示校历，是否是放假以及周末状态！", Toast.LENGTH_LONG).show();
+			/*
+			 * Toast.makeText(this, "显示校历，是否是放假以及周末状态！",
+			 * Toast.LENGTH_LONG).show();
+			 */
+			Intent intent = new Intent();
+			intent.setClass(getApplicationContext(), SchoolCalendar.class);
+			startActivity(intent);
 			return true;
 		default:
 			return super.onOptionsItemSelected(item);

@@ -13,9 +13,9 @@
         android:layout_width="240dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@drawable/menu_background"
+        android:background="#343d52"
         android:choiceMode="singleChoice"
-        android:divider="#a0a5a8a5"
-        android:dividerHeight="1dp" />
+        android:divider="#181c25"
+        android:dividerHeight="1.3dp" />
 
 </android.support.v4.widget.DrawerLayout>

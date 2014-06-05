@@ -60,55 +60,76 @@ public final class R {
         public static final int button_bg_press=0x7f020013;
         public static final int drawer_shadow=0x7f020014;
         public static final int grid_item_jiaoxueziliao=0x7f020015;
-        public static final int ic_action_favorite=0x7f020016;
-        public static final int ic_action_go_to_today=0x7f020017;
-        public static final int ic_action_new_label=0x7f020018;
-        public static final int ic_action_person=0x7f020019;
-        public static final int ic_action_select_all=0x7f02001a;
-        public static final int ic_action_settings=0x7f02001b;
-        public static final int ic_action_web_site=0x7f02001c;
-        public static final int ic_drawer=0x7f02001d;
-        public static final int ic_launcher=0x7f02001e;
-        public static final int main_background=0x7f02001f;
-        public static final int menu_background=0x7f020020;
+        public static final int grid_item_school_findgoods=0x7f020016;
+        public static final int grid_item_school_food=0x7f020017;
+        public static final int grid_item_school_ikonw=0x7f020018;
+        public static final int grid_item_school_map=0x7f020019;
+        public static final int grid_item_school_news=0x7f02001a;
+        public static final int grid_item_school_person=0x7f02001b;
+        public static final int grid_item_school_server=0x7f02001c;
+        public static final int grid_item_school_tongzhi=0x7f02001d;
+        public static final int grid_item_students=0x7f02001e;
+        public static final int grid_item_study_file=0x7f02001f;
+        public static final int grid_item_xiaoyuanjingyan=0x7f020020;
+        public static final int grid_item_yijianfankui=0x7f020021;
+        public static final int ic_action_favorite=0x7f020022;
+        public static final int ic_action_go_to_today=0x7f020023;
+        public static final int ic_action_important=0x7f020024;
+        public static final int ic_action_new_label=0x7f020025;
+        public static final int ic_action_person=0x7f020026;
+        public static final int ic_action_select_all=0x7f020027;
+        public static final int ic_action_settings=0x7f020028;
+        public static final int ic_action_view_as_grid=0x7f020029;
+        public static final int ic_action_web_site=0x7f02002a;
+        public static final int ic_drawer=0x7f02002b;
+        public static final int ic_launcher=0x7f02002c;
+        public static final int main_background=0x7f02002d;
+        public static final int menu_background=0x7f02002e;
+        public static final int schoole_calendar01=0x7f02002f;
+        public static final int schoole_calendar02=0x7f020030;
     }
     public static final class id {
-        public static final int action_calendar=0x7f0a0012;
-        public static final int blogtitle=0x7f0a000f;
-        public static final int blogwriter=0x7f0a0010;
+        public static final int action_calendar=0x7f0a0015;
+        public static final int blogtitle=0x7f0a0012;
+        public static final int blogwriter=0x7f0a0013;
+        public static final int bmapsView=0x7f0a0007;
         public static final int content_frame=0x7f0a0001;
-        public static final int drawer_img=0x7f0a0005;
+        public static final int drawer_img=0x7f0a0008;
         public static final int drawer_layout=0x7f0a0000;
-        public static final int drawer_name=0x7f0a0006;
+        public static final int drawer_name=0x7f0a0009;
+        public static final int imageView1=0x7f0a0005;
+        public static final int imageView2=0x7f0a0006;
         public static final int left_drawer=0x7f0a0002;
         public static final int list=0x7f0a0004;
-        public static final int main_grid=0x7f0a0007;
-        public static final int main_item_img=0x7f0a000d;
-        public static final int main_item_text=0x7f0a000e;
-        public static final int main_layout=0x7f0a0008;
-        public static final int main_scroll=0x7f0a0009;
-        public static final int open_html=0x7f0a0011;
-        public static final int radioButtonLocalUrl=0x7f0a000c;
-        public static final int radioButtonPublicUrl=0x7f0a000b;
-        public static final int radioGroup_Url=0x7f0a000a;
+        public static final int main_grid=0x7f0a000a;
+        public static final int main_item_img=0x7f0a0010;
+        public static final int main_item_text=0x7f0a0011;
+        public static final int main_layout=0x7f0a000b;
+        public static final int main_scroll=0x7f0a000c;
+        public static final int open_html=0x7f0a0014;
+        public static final int radioButtonLocalUrl=0x7f0a000f;
+        public static final int radioButtonPublicUrl=0x7f0a000e;
+        public static final int radioGroup_Url=0x7f0a000d;
         public static final int swype=0x7f0a0003;
     }
     public static final class layout {
         public static final int activity_appstart=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_news=0x7f030002;
-        public static final int activity_studymaterial=0x7f030003;
-        public static final int drawer_list_item=0x7f030004;
-        public static final int fragment_main=0x7f030005;
-        public static final int fragment_url=0x7f030006;
-        public static final int grid_item_view=0x7f030007;
-        public static final int main_today_article=0x7f030008;
+        public static final int activity_school_calendar=0x7f030003;
+        public static final int activity_school_map=0x7f030004;
+        public static final int activity_studymaterial=0x7f030005;
+        public static final int drawer_list_item=0x7f030006;
+        public static final int fragment_main=0x7f030007;
+        public static final int fragment_url=0x7f030008;
+        public static final int grid_item_view=0x7f030009;
+        public static final int main_today_article=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f090000;
     }
     public static final class string {
-        public static final int action_calendar=0x7f05001b;
+        public static final int action_calendar=0x7f05001d;
         public static final int activity_find_goods=0x7f050005;
         public static final int activity_idea_feedback=0x7f05000c;
         public static final int activity_school_experience=0x7f050009;
@@ -118,6 +139,8 @@ public final class R {
         public static final int activity_school_person=0x7f050007;
         public static final int activity_school_server=0x7f050004;
         public static final int activity_school_student=0x7f050008;
+        public static final int activity_schoole_calendar=0x7f05000d;
+        public static final int activity_schoole_map=0x7f05000e;
         /** 
          校园资讯-校园知道-校园知道
 	 校园服务-校园觅物-学习资料
@@ -132,24 +155,24 @@ public final class R {
         /**  应用名称 
          */
         public static final int app_name=0x7f050000;
-        public static final int drawer_close=0x7f05001a;
+        public static final int drawer_close=0x7f05001c;
         /**  其他字符串定义 
          */
-        public static final int drawer_open=0x7f050019;
-        public static final int grid_item_find_goods=0x7f050011;
-        public static final int grid_item_idea_feedback=0x7f050018;
-        public static final int grid_item_school_experience=0x7f050015;
-        public static final int grid_item_school_food=0x7f050016;
-        public static final int grid_item_school_ikonw=0x7f05000f;
-        public static final int grid_item_school_map=0x7f050017;
-        public static final int grid_item_school_person=0x7f050013;
-        public static final int grid_item_school_server=0x7f050010;
-        public static final int grid_item_school_student=0x7f050014;
+        public static final int drawer_open=0x7f05001b;
+        public static final int grid_item_find_goods=0x7f050013;
+        public static final int grid_item_idea_feedback=0x7f05001a;
+        public static final int grid_item_school_experience=0x7f050017;
+        public static final int grid_item_school_food=0x7f050018;
+        public static final int grid_item_school_ikonw=0x7f050011;
+        public static final int grid_item_school_map=0x7f050019;
+        public static final int grid_item_school_person=0x7f050015;
+        public static final int grid_item_school_server=0x7f050012;
+        public static final int grid_item_school_student=0x7f050016;
         /**  主页功能列表 
          */
-        public static final int grid_item_schoole_news=0x7f05000d;
-        public static final int grid_item_study_inform=0x7f05000e;
-        public static final int grid_item_study_material=0x7f050012;
+        public static final int grid_item_schoole_news=0x7f05000f;
+        public static final int grid_item_study_inform=0x7f050010;
+        public static final int grid_item_study_material=0x7f050014;
     }
     public static final class style {
         /** 

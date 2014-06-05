@@ -65,13 +65,13 @@ public class MenuAdapter extends BaseAdapter {
 		String flag = map.get("imageItem").toString();
 		if (flag.equals("1")) {
 			listItemView.img_view
-					.setBackgroundResource(R.drawable.ic_action_select_all);
+					.setBackgroundResource(R.drawable.ic_action_view_as_grid);
 		} else if (flag.equals("2")) {
 			listItemView.img_view
 					.setBackgroundResource(R.drawable.ic_action_person);
 		} else if (flag.equals("3")) {
 			listItemView.img_view
-					.setBackgroundResource(R.drawable.ic_action_favorite);
+					.setBackgroundResource(R.drawable.ic_action_important);
 		} else if (flag.equals("4")) {
 			listItemView.img_view
 					.setBackgroundResource(R.drawable.ic_action_new_label);
